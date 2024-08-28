@@ -5,6 +5,9 @@
         "start": "rollup -c -w"
     },
     "main": "src/engine/engine.ts",
+    "optionalDependencies": {
+        "@rollup/rollup-linux-x64-gnu": "4.6.1"
+    },
     "devDependencies": {
         "@kineticcafe/rollup-plugin-delete": "^3.0.0",
         "@rollup-extras/plugin-copy": "^1.9.3",
